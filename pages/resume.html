@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kate Larsen | Résumé</title>
+
+<style>
+    :root {
+        --royal-blue: #003da5;
+        --navy: #002e6d;
+        --light-gray: #f4f6fa;
+        --text-dark: #1a1a1a;
+    }
+
+    body {
+        margin: 0;
+        font-family: "Segoe UI", sans-serif;
+        background: white;
+        color: var(--text-dark);
+        line-height: 1.6;
+    }
+
+    /* HEADER */
+    header {
+        background: var(--royal-blue);
+        color: white;
+        padding: 70px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    header p {
+        margin-top: 10px;
+        font-size: 1.2rem;
+        opacity: 0.95;
+    }
+
+    /* SECTION STYLES */
+    section {
+        max-width: 900px;
+        margin: 60px auto;
+        padding: 0 20px;
+    }
+
+    h2 {
+        color: var(--royal-blue);
+        font-size: 2rem;
+        margin-bottom: 10px;
+        border-left: 6px solid var(--royal-blue);
+        padding-left: 12px;
+    }
+
+    .card {
+        background: var(--light-gray);
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 20px;
+    }
+
+    /* EXPERIENCE */
+    .job {
+        margin-bottom: 25px;
+    }
+
+    .job h3 {
+        margin: 0;
+        font-size: 1.3rem;
+        color: var(--navy);
+    }
+
+    .job p {
+        margin: 5px 0 10px;
+        font-weight: 600;
+        color: #444;
+    }
+
+    /* SKILLS GRID */
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .skill-box {
+        background: white;
+        border: 2px solid var(--royal-blue);
+        padding: 12px;
+        border-radius: 6px;
+        text-align: center;
+        font-weight: 600;
+        color: var(--royal-blue);
+    }
+
+    /* CONTACT */
+    .contact p {
+        margin: 8px 0;
+        font-size: 1.1rem;
+    }
+
+    /* FOOTER */
+    footer {
+        background: var(--navy);
+        color: white;
+        text-align: center;
+        padding: 25px 10px;
+        margin-top: 60px;
+        font-size: 0.9rem;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Kate Larsen</h1>
+    <p>BYU Student • Interior Design Assistant • Pre‑Business</p>
+</header>
+
+<section id="summary">
+    <h2>Professional Summary</h2>
+    <div class="card">
+        <p>
+            Detail‑oriented BYU student with experience in interior design assistance, 
+            project coordination, and administrative support. Skilled in creating 
+            organized workflows, designing meaningful experiences, and communicating 
+            clearly with clients and teams. Passionate about design, problem‑solving, 
+            and building systems that feel intentional and efficient.
+        </p>
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+
+    <div class="card">
+        <div class="job">
+            <h3>Interior Design Assistant</h3>
+            <p>Freelance • 2025–Present</p>
+            <ul>
+                <li>Assist with client consultations, mood boards, and space planning</li>
+                <li>Support sourcing, vendor communication
